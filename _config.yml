@@ -28,7 +28,7 @@ repository: <USERNAME>/<PROJECT>
 # Email address, no mailto:
 # (Don't change this -- the contact address for your workshop will be set 
 # in the index.md file)
-email: "team@carpentries.org"
+email: "training@surfsara.nl"
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
@@ -39,9 +39,9 @@ dc_site: "https://datacarpentry.org"
 example_repo: "https://github.com/carpentries/lesson-example"
 example_site: "https://carpentries.github.io/lesson-example"
 lc_site: "https://librarycarpentry.org/"
-swc_github: "https://github.com/swcarpentry"
-swc_pages: "https://swcarpentry.github.io"
-swc_site: "https://software-carpentry.org"
+swc_github: "https://github.com/sara-nl"
+swc_pages: "https://sara-nl.github.io"
+swc_site: "https://www.surf.nl"
 template_repo: "https://github.com/carpentries/styles"
 training_site: "https://carpentries.github.io/instructor-training"
 workshop_repo: "https://github.com/carpentries/workshop-template"

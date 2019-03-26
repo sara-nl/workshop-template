@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
+carpentry: swc        # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
 venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
@@ -33,7 +33,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 {% comment %}
 For a workshop please delete the following block
-{% endcomment %}
 <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to customize your
 own website. If you are running a self-organized workshop or have not put in a
@@ -42,6 +41,7 @@ workshop request yet, please also fill in
 about your workshop and our administrator may contact you if we need any extra
 information.
 </div>
+{% endcomment %}
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
@@ -299,9 +299,9 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  To participate in this
   {% if page.carpentry == "swc" %}
-  Software Carpentry
+  SURFsara
   {% elsif page.carpentry == "dc" %}
   Data Carpentry
   {% elsif page.carpentry == "lc" %}
@@ -311,11 +311,14 @@ please preview your site before committing, and make sure to run
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
+
+{% comment %}
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+{% endcomment %}
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
