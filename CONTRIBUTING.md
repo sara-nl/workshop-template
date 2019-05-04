@@ -1,6 +1,6 @@
 # Contributing
 
-[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,
+The contribution to this project is open to every member of SURF,
 and we welcome contributions of all kinds:
 new lessons,
 fixes to existing material,
@@ -10,12 +10,12 @@ and reviews of proposed changes are all welcome.
 ## Contributor Agreement
 
 By contributing,
-you agree that we may redistribute your work under [our license](LICENSE.md).
+you agree that your contributed changes and materials will become a part of the project, 
+and thus may be redistributed under [our license](LICENSE.md).
 In exchange,
 we will address your issues and/or assess your change proposal as promptly as we can,
 and help you become a member of our community.
-Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
-agrees to abide by our [code of conduct](CONDUCT.md).
+Everyone involved in this development agrees to abide by our [code of conduct](CONDUCT.md).
 
 ## How to Contribute
 
@@ -46,14 +46,14 @@ and to meet some of our community members.
 ## Where to Contribute
 
 1.  If you wish to change the template used for workshop websites,
-    please work in <https://github.com/swcarpentry/workshop-template>.
+    please work in <https://github.com/sara-nl/workshop-template>.
     The home page of that repository explains how to set up workshop websites,
-    while the extra pages in <https://swcarpentry.github.io/workshop-template>
+    while the extra pages in <https://sara-nl.github.io/workshop-template>
     provide more background on our design choices.
 
 2.  If you wish to change CSS style files, tools,
     or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,
-    please work in <https://github.com/swcarpentry/styles>.
+    please work in <https://github.com/sara-nl/styles>.
 
 ## What to Contribute
 

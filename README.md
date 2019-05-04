@@ -1,3 +1,7 @@
+# Initial acknowledgement
+
+The present for SURF workshops has been imported originally from the template available from The Carpentries. The information included in this README file has been kept as is.
+
 # workshop-template
 
 This repository is The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]'s)

@@ -35,10 +35,10 @@ that are not aligned to our [Code of Conduct][coc].
 Project maintainers who do not follow the Code of Conduct may be removed from the project team.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior
-may be reported by following our [reporting guidelines][coc-reporting].
+may be [reported][coc-reporting].
 
 
-- [Software and Data Carpentry Code of Conduct][coc]
-- [Code of Conduct Reporting Guide][coc-reporting]
+- [Contributor Covenant Code of Conduct][coc]
+- [Reporting abuse][coc-reporting]
 
 {% include links.md %}
