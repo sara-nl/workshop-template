@@ -15,9 +15,23 @@
       </button>
 
       {% comment %} Logo to display. {% endcomment %}
-      <a href="{{ site.surfsara_site }}" class="pull-left">
+      {% if page.carpentry == "swc" %}
+      <a href="{{ site.surf_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/SURF_SARA_fc.svg %}" alt="SURFsara logo" />
       </a>
+      {% elsif page.carpentry == "dc" %}
+      <a href="{{ site.surf_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/SURF_SARA_fc.svg %}" alt="SURFsara logo" />
+      </a>
+      {% elsif page.carpentry == "dc" %}
+      <a href="{{ site.surf_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/SURF_SARA_fc.svg %}" alt="SURFsara logo" />
+      </a>
+      {% elsif page.carpentry == "dc" %}
+      <a href="{{ site.surf_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/SURF_SARA_fc.svg %}" alt="SURFsara logo" />
+      </a>
+      {% endif %}
 
       {% comment %} Always show link to home page. {% endcomment %}
       <a class="navbar-brand" href="{{ relative_root_path }}{% link index.md %}">Home</a>
