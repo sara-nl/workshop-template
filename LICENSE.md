@@ -5,17 +5,14 @@ title: "Licenses"
 ## Instructional Material
 
 The SURF instructional material in this page is
-made available under the [Creative Commons Attribution
-license][cc-by-human]. The following is a human-readable summary of
-(and not a substitute for) the [full legal text of the CC BY 4.0
-license][cc-by-legal].
+made available under the [GNU General Public License][cc-by-human].
 
 You are free:
 
 * to **Share**---copy and redistribute the material in any medium or format
 * to **Adapt**---remix, transform, and build upon the material
 
-for any purpose, even commercially.
+for any non-commercial purpose.
 
 The licensor cannot revoke these freedoms as long as you follow the
 license terms.
@@ -44,5 +41,4 @@ Notices:
   rights such as publicity, privacy, or moral rights may limit how you
   use the material.
 
-[cc-by-human]: https://creativecommons.org/licenses/by/4.0/
-[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
+[cc-by-human]: https://www.gnu.org/licenses/gpl.html
