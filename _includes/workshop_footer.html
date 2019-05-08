@@ -6,13 +6,13 @@
     <div class="col-md-6" align="left">
       <h4>
 	Copyright &copy; 2012–{{ 'now' | date: "%Y" }}
-	{% if site.carpentry == "swc" %}
+	{% if site.organization == "swc" %}
 	<a href="{{ site.swc_site }}">SURFsara</a>
-	{% elsif site.carpentry == "dc" %}
+	{% elsif site.organization == "dc" %}
 	<a href="{{ site.dc_site }}">Data Carpentry</a>
-	{% elsif site.carpentry == "lc" %}
+	{% elsif site.organization == "lc" %}
 	<a href="{{ site.lc_site }}">Library Carpentry</a>
-	{% elsif site.carpentry == "cp" %}
+	{% elsif site.organization == "cp" %}
 	<a href="{{ site.carpentries_site }}">The Carpentries</a>
 	{% endif %}
       </h4>

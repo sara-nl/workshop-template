@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: swc        # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
+organization: swc        # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
 venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
@@ -43,10 +43,10 @@ information.
 </div>
 {% endcomment %}
 
-{% if page.carpentry != site.carpentry %}
+{% if page.organization != site.organization %}
 <div class="alert alert-warning">
-You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
+You specified <code>carpentry: {{page.organization}}</code> in <code>index.md</code> and
+<code>carpentry: {{site.organization}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
 see the changes take effect locally.
 </div>
 {% endif %}
@@ -78,11 +78,11 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
+{% if page.organization == "swc" %}
 {% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %}
+{% elsif page.organization == "dc" %}
 {% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %}
+{% elsif page.organization == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
 
@@ -92,11 +92,11 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
+{% if page.organization == "swc" %}
 {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
+{% elsif page.organization == "dc" %}
 {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
+{% elsif page.organization == "lc" %}
 {% include lc/who.html %}
 {% endif %}
 
@@ -208,13 +208,13 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
+{% if site.organization == "swc" %} 
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "dc" %}
+{% elsif site.organization == "dc" %}
 <p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "lc" %}
+{% elsif site.organization == "lc" %}
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% endif %}
@@ -231,11 +231,11 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
+{% if page.organization == "swc" %}
 {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
+{% elsif page.organization == "dc" %}
 {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
+{% elsif page.organization == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
 
@@ -276,11 +276,11 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
-{% if page.carpentry == "swc" %}
+{% if page.organization == "swc" %}
 {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
+{% elsif page.organization == "dc" %}
 {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
+{% elsif page.organization == "lc" %}
 {% include lc/syllabus.html %}
 {% endif %}
 
@@ -302,11 +302,11 @@ please preview your site before committing, and make sure to run
 
 <p>
   To participate in this
-  {% if page.carpentry == "swc" %}
+  {% if page.organization == "swc" %}
   SURFsara
-  {% elsif page.carpentry == "dc" %}
+  {% elsif page.organization == "dc" %}
   Data Carpentry
-  {% elsif page.carpentry == "lc" %}
+  {% elsif page.organization == "lc" %}
   Library Carpentry
   {% endif %}
   workshop,
@@ -714,11 +714,11 @@ please preview your site before committing, and make sure to run
       <li role="presentation" class="active"><a data-os="windows" href="#sql-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
       <li role="presentation"><a data-os="macos" href="#sql-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
       <li role="presentation"><a data-os="linux" href="#sql-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
-      {% if page.carpentry != 'dc' %}
+      {% if page.organization != 'dc' %}
       <li role="presentation"><a data-os="Web" href="#sql-web" aria-controls="Linux" role="tab" data-toggle="tab">Web</a></li>
       {% endif %}
     </ul>
-    {% if page.carpentry == 'dc' %}
+    {% if page.organization == 'dc' %}
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="sql-windows">
         <p>
